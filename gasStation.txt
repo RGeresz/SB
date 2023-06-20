@@ -1,0 +1,3 @@
+Stanowisko 646.0 4.7 1004.5 4.5
+Stanowisko 1002.0 4.5 1004.8 5.0
+Stanowisko 1003.0 3.3

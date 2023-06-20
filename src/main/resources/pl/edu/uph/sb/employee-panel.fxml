@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+
+<TabPane fx:id="tabPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onKeyPressed="#onKeyPressed" prefHeight="400.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.edu.uph.sb.EmployeePanelController">
+    <tabs>
+        <Tab fx:id="employeeStation1Tab" text="Stanowisko 1">
+            <content>
+                <fx:include fx:id="employeeStation1" source="employee-panel-tab1.fxml" />
+            </content>
+        </Tab>
+        <Tab fx:id="employeeStation2Tab" text="Stanowisko 2">
+            <content>
+                <fx:include fx:id="employeeStation2" source="employee-panel-tab2.fxml" />
+            </content>
+        </Tab>
+        <Tab fx:id="employeeStation3Tab" text="Stanowisko 3">
+            <content>
+                <fx:include fx:id="employeeStation3" source="employee-panel-tab3.fxml" />
+            </content>
+        </Tab>
+    </tabs>
+</TabPane>

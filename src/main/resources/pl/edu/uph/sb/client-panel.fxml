@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+
+<TabPane fx:id="tabPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onKeyPressed="#onKeyPressed" prefHeight="400.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.edu.uph.sb.ClientPanelController">
+  <tabs>
+      <Tab fx:id="station1Tab" text="Stanowisko 1">
+          <content>
+                <fx:include fx:id="station1" source="client-panel-tab1.fxml" />
+          </content>
+      </Tab>
+      <Tab fx:id="station2Tab" text="Stanowisko 2">
+          <content>
+              <fx:include fx:id="station2" source="client-panel-tab2.fxml" />
+          </content>
+      </Tab>
+      <Tab fx:id="station3Tab" text="Stanowisko 3">
+          <content>
+              <fx:include fx:id="station3" source="client-panel-tab3.fxml" />
+          </content>
+      </Tab>
+  </tabs>
+</TabPane>

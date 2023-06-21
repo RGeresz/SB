@@ -66,6 +66,7 @@ public class ClientPanelTab2Controller {
         if (gasRBtn.isSelected()) {
             priceLbl.textProperty().bind(station.gasPriceProperty().asString());
         }
+        amountTyped(null);
     }
 
     @FXML

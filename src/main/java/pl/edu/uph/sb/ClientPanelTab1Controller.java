@@ -31,7 +31,6 @@ public class ClientPanelTab1Controller {
 
 
 
-
     @FXML
     private void initialize() {
         station = (StationGasAndDiesel) GasStation.getInstance().getStation(0);
@@ -66,6 +65,7 @@ public class ClientPanelTab1Controller {
         if (gasRBtn.isSelected()) {
             priceLbl.textProperty().bind(station.gasPriceProperty().asString());
         }
+        amountTyped(null);
     }
 
     @FXML
